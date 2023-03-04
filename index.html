@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agnieszka Kosiedowska | portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+    <link rel="stylesheet" href="./dist/css/main.min.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo"><a href="#home">{agn:kos}</a></div>
+        <button class="hamburger-btn" aria-label="toggle navigation">
+            <span class="hamburger-btn__bar"></span>
+            <span class="hamburger-btn__bar"></span>
+            <span class="hamburger-btn__bar"></span>
+        </button>
+        <div class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+            </ul>
+
+            <ul class="social-links social-links--nav">
+                <li><a href="https://www.linkedin.com/in/agnieszkakosiedowska/"
+                        class="social-links__item social-links__item--nav" target="_blank" rel="noopener noreferrer"><i
+                            class="ti ti-brand-linkedin"></i></a></li>
+                <li><a href="https://github.com/agnkos" class="social-links__item social-links__item--nav"
+                        target="_blank" rel="noopener noreferrer"><i class="ti ti-brand-github"></i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="header section section--dark">
+        <img src="src/images/undraw_proud_coder.svg" alt="" class="header__img">
+        <div class="header__text">
+            <h1 class="header__title">Hi, my name is <span class="header__title--strong">Agnieszka
+                    Kosiedowska</span></h1>
+            <p class="header__subtitle">Frontend Developer</p>
+        </div>
+        <div class="header__arrow">
+            <a href="#about"><img src="src/images/arrow-down-circle.svg" alt="" class="header__arrow-icon"></a>
+        </div>
+
+
+    </section>
+
+    <main>
+
+        <section id="about" class="section">
+            <h2 class="section__title">About me</h2>
+            <p class="section__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit assumenda
+                esse soluta ipsum labore nihil modi quis voluptates animi optio, perspiciatis neque! Obcaecati molestiae
+                suscipit id ratione modi illo non? Ipsam unde atque dolores dolorum, commodi minima optio sapiente
+                ratione.
+            </p>
+            <h3 class="section__subtitle">My skills</h3>
+            <div class="skills">
+                <div class="skills__item">HTML5</div>
+                <div class="skills__item">CSS3</div>
+                <div class="skills__item">SASS</div>
+                <div class="skills__item">Bootstrap</div>
+                <div class="skills__item">JavaScript</div>
+                <div class="skills__item">ReactJS</div>
+                <div class="skills__item">Styled Components</div>
+                <div class="skills__item">Resposive Web Design</div>
+                <div class="skills__item">Gulp</div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2 class="section__title">My projects</h2>
+            <p class="section__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <div class="projects-container">
+
+                <div class="project">
+                    <img src="dist/images/watchlist.png" alt="project image" class="project__img">
+                    <div class="project__info">
+                        <div class="project__title">Watchlist</div>
+                        <div class="project__description">Search for movies and add them to queue, favorites and
+                            watched.</div>
+                        <div class="stack">
+                            <div class="stack__item">ReactJS</div>
+                            <div class="stack__item">React Router</div>
+                            <div class="stack__item">Styled Components</div>
+                            <div class="stack__item">API</div>
+                        </div>
+                        <div class="project__links">
+                            <a href="https://watchlist-reactjs.netlify.app/" target="_blank" rel="noopener noreferrer"
+                                class="project__link project__link--live">Live Link</a>
+                            <a href="https://github.com/agnkos/watchlist-react" target="_blank"
+                                rel="noopener noreferrer" class="project__link project__link--code">Code Link</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <img src="dist/images/doslownie.png" alt="project image" class="project__img">
+                    <div class="project__info">
+                        <div class="project__title">Dosłownie</div>
+                        <div class="project__description">Try to guess 5-letter word! App checks typed words with
+                            vocabulary and saves stats to localStorage.</div>
+                        <div class="stack">
+                            <div class="stack__item">ReactJS</div>
+                            <div class="stack__item">Styled Components</div>
+                        </div>
+                        <div class="project__links">
+                            <a href="https://doslownie.netlify.app/" target="_blank" rel="noopener noreferrer"
+                                class="project__link project__link--live">Live Link</a>
+                            <a href="https://github.com/agnkos/doslownie" target="_blank" rel="noopener noreferrer"
+                                class="project__link project__link--code">Code Link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="dist/images/quizzapp.jpg" alt="project image" class="project__img">
+                    <div class="project__info">
+                        <div class="project__title">Quizz App</div>
+                        <div class="project__description">Scrimba solo project. Pull 5 questions from OTDB API and check
+                            if your answers are correct.</div>
+                        <div class="stack">
+                            <div class="stack__item">CSS3</div>
+                            <div class="stack__item">ReactJS</div>
+                            <div class="stack__item">API</div>
+                        </div>
+                        <div class="project__links">
+                            <a href="https://quiz-app-agnkos.netlify.app/" target="_blank" rel="noopener noreferrer"
+                                class="project__link project__link--live">Live Link</a>
+                            <a href="https://github.com/agnkos/quiz-app" target="_blank" rel="noopener noreferrer"
+                                class="project__link project__link--code">Code Link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="dist/images/color-generator.jpg" alt="project image" class="project__img">
+                    <div class="project__info">
+                        <div class="project__title">Color Scheme Generator</div>
+                        <div class="project__description">Choose color and scheme mode to generate a color scheme. Copy
+                            hex values to clipboard on click.</div>
+                        <div class="stack">
+                            <div class="stack__item">CSS3</div>
+                            <div class="stack__item">JavaScript</div>
+                            <div class="stack__item">API</div>
+                        </div>
+                        <div class="project__links">
+                            <a href="https://agnkos.github.io/color-scheme-generator/" target="_blank"
+                                rel="noopener noreferrer" class="project__link project__link--live">Live Link</a>
+                            <a href="https://github.com/agnkos/color-scheme-generator" target="_blank"
+                                rel="noopener noreferrer" class="project__link project__link--code">Code Link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="dist/images/password-generator.jpg" alt="project image" class="project__img">
+                    <div class="project__info">
+                        <div class="project__title">Password Generator</div>
+                        <div class="project__description">
+                            Generate two random passwords and copy them to clipboard on click.
+                        </div>
+                        <div class="stack">
+                            <div class="stack__item">CSS3</div>
+                            <div class="stack__item">JavaScript</div>
+                        </div>
+                        <div class="project__links">
+                            <a href="https://agnkos.github.io/password-generator/" target="_blank"
+                                rel="noopener noreferrer" class="project__link project__link--live">Live Link</a>
+                            <a href="https://github.com/agnkos/password-generator" target="_blank"
+                                rel="noopener noreferrer" class="project__link project__link--code">Code Link</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+    </main>
+
+    <footer id="contact" class="footer section section--dark">
+        <h2 class="section__title">Get in touch</h2>
+        <p class="section__text"> Please reach out if you have any questions!</p>
+        <ul class="social-links">
+            <li><a href="https://www.linkedin.com/in/agnieszkakosiedowska/" class="social-links__item" target="_blank"
+                    rel="noopener noreferrer"><i class="ti ti-brand-linkedin"></i></a></li>
+            <li><a href="https://github.com/agnkos" class="social-links__item" target="_blank"
+                    rel="noopener noreferrer"><i class="ti ti-brand-github"></i></a></li>
+        </ul>
+        <p class="footer__bottom-text">&copy;<span class="footer__year"></span>Agnieszka Kosiedowska</p>
+    </footer>
+
+    <script src="dist/js/index.min.js"></script>
+</body>
+
+</html>
