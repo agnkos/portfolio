@@ -1,4 +1,4 @@
 ### Portfolio (still working on, only mobile version)
 
 ## My portfolio page
-## [Link](https://agnkos.github.io/portflio/)
+## [Link](https://agnkos.github.io/portfolio/)
