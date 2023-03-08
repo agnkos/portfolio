@@ -2,8 +2,7 @@
 ## [Project Link](https://agnkos.github.io/portfolio/)
 
 ### Project screenshots
-<img src='./dist/images/Screenshot_1.jpg' alt="page screenshot" title="page screenshot" style='width: 400px; margin: 0 auto;'> 
-<img src='./dist/images/Screenshot_2.jpg' alt="page screenshot" title="page screenshot" style='width: 400px; margin: 0 auto;'> 
+<img src='./dist/images/Screenshot_1.jpg' alt="page screenshot" title="page screenshot" style='width: 200px; margin: 0 auto;'><img src='./dist/images/Screenshot_2.jpg' alt="page screenshot" title="page screenshot" style='width: 400px; margin: 0 auto;'> 
 
 ### Project description
 - my portoflio page with links to the selected projects and about me section
